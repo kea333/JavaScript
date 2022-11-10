@@ -1,0 +1,17 @@
+/*** BASE STYLES ***/
+body {
+	background-color: #e6fff9;
+}
+
+img {
+	border-width: 0;
+}
+
+.centered {
+	text-align: center;
+}
+
+#adBanner {
+	width: 45%;
+	height: 45%;
+}

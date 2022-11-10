@@ -1,0 +1,79 @@
+/*** BASE STYLES ***/
+html {
+	background-color: #ffffe6;
+    font-size:16px;
+}
+
+body {
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	font-size:1em;
+}
+
+/*** HEADER SECTION ***/
+header {
+	text-align: center;
+	border-bottom: 0.1em solid #008000;
+	margin: 0 auto;
+	clear: both;
+}
+
+header h1 {
+	font-size: 1.875em;
+	margin: 0;
+	padding: 1.5em 0;
+}
+
+header h1 span {
+	color: #1aff1a;
+}
+
+header .full-width {
+	padding: 2px 0;
+}
+
+h1,
+h3 {
+	color: #4d4d4d;
+	font-weight: 700;
+}
+
+h3 {
+	font-size: 0.8em;
+}
+
+/*** BODY GRID ***/
+#neighbours {
+	font-size: 18px;
+	height: 300px;
+}
+
+#neighbours img {
+	width: 95%;
+}
+
+.full-width {
+    margin: 0 auto;
+    width: 100%;
+	display: inline-block;
+	clear: both;
+}
+
+.third-width {
+	float: left;
+	height: auto;
+	width: 33%;
+}
+
+footer {
+	border-top: 0.19em solid #eee;
+	font-size: 28px;
+	margin: 2em auto;
+	text-align: center;
+	height: 10%;
+	clear: both;
+}
+
+footer span {
+	font-family: 'Galada', cursive;
+	color: #77a466;
+}

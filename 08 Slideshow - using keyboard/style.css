@@ -1,0 +1,18 @@
+/*** BASE STYLES ***/
+body {
+	background-color: #000000;
+}
+
+.centered {
+	text-align: center;
+}
+
+img#myPicture {
+	width: 65%;
+	height: 45%;
+}
+
+h3 {
+    color: #999999;
+    text-align: right;
+}

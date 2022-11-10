@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Pick a Car</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="style.css" rel="stylesheet">
+	<script type="text/javascript" defer src="script.js"></script>	
+</head>
+<body>
+<h2 class="centered">Pick a Car</h2>
+<form action="someAction.cgi">
+	<p><label for="name">Name:<input id="name" type="text" size="25" class="reqd name"></label>
+       <label for="address">Address:<input id="address" type="text" size="40" class="reqd address"></label>
+       
+       <label for="emailAddr">Email Address:<input id="emailAddr" type="text" size="25" class="reqd email"></label>
+    </p>
+	<p>Cars:
+		<select id="car" class="reqd">
+			<option value="" selected>Choose a car</option>
+			<option value="rrS">Rolls Royce Spectre</option>
+			<option value="porshe">Porsche GT3 RS Weissach</option>
+			<option value="bug_veron">Bugatti Veyron 16.4</option>
+            <option value="bug_chiron">Bugatti Chiron</option>
+            <option value="merc">Mercedes-AMG C63 S E 16.4</option>
+            <option value="lambo">Lamborghini Huracan Sterrato</option>
+		</select>
+	</p>
+	<p>Options:
+		<label for="v12"><input type="checkbox" id="v12" value="Yes">V-12</label>
+        <label for="maxT"><input type="checkbox" id="maxT" value="Yes">Maximum Torque</label>
+        <label for="midE"><input type="checkbox" id="midE" value="Yes">Mid-engine</label>
+        <label for="pWindows"><input type="checkbox" id="pWindows" value="Yes">Power Windows</label>
+        <label for="sunroof"><input type="checkbox" id="sunroof" value="Yes">Sunroof (Two door only)</label>
+	</p>
+	<p>Doors:&nbsp;&nbsp;
+		<label for="twoDoor"><input type="radio" id="twoDoor" name="DoorCt" value="twoDoor" class="radio">Two</label>
+		<label for="fourDoor"><input type="radio" id="fourDoor" name="DoorCt" value="fourDoor" class="radio">Four</label>
+	</p>
+	<p>
+		<label for="zip">Enter your postcode or pick the dealer nearest you:<br>
+			Postcode: <input id="zip" type="text" size="8" maxlength="10" class="isZip dealerList">
+		</label>
+		<select id="dealerList" size="4" class="zip">
+			<option value="London--Knightsbridge">London--Knightsbridge</option>
+			<option value="London--Mayfair">London--Mayfair</option>
+			<option value="London--Holland_Park">London--Holland Park</option>
+			<option value="London--Chelsea">London--Chelsea</option>
+			<option value="London--Docklands">London--Docklands</option>
+		</select>
+	</p>
+	<p><input type="submit" value="Submit">&nbsp;<input type="reset"></p>
+</form>
+</body>
+</html>

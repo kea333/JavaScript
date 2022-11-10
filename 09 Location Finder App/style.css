@@ -1,0 +1,29 @@
+/*** BASE STYLES ***/
+html, body {
+    height: 100%;
+  }
+
+body {
+    margin: 0;
+    background: url('location_background.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center; 
+}
+
+
+/*** ITEM GRID ***/
+button {
+    cursor: pointer;
+    font-size: 1.2rem;
+  }
+
+p {
+    font-size: 1.4rem;
+}
+
+#mapQuery {
+    color: #1a1aff;
+    font-size: 1.4rem;
+}
