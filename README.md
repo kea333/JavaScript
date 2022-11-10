@@ -1,1 +1,1 @@
-JavaScript tasks.
+JavaScript exercises.
